@@ -36,7 +36,9 @@ import time
 3. **Maze Definition**
 The maze is defined as a 2D list, where # represents walls, O represents the start, and X represents the end.
 
-maze = [
+maze = 
+[
+
     ["#", "O", "#", "#", "#", "#", "#", "#", "#"],
     
     ["#", " ", " ", " ", " ", " ", " ", " ", "#"],
