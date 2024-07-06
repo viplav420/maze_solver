@@ -59,7 +59,7 @@ maze =
     
 ]
 
-3. **Print Maze Function**
+4. **Print Maze Function**
 
 def print_maze(maze, stdscr, path=[]):
 
@@ -79,7 +79,8 @@ def print_maze(maze, stdscr, path=[]):
             
                 stdscr.addstr(i, j*2, value, BLUE)
                 
-4. **Find Start Position Function**
+5. **Find Start Position Function**
+   
 def find_start(maze, start):
 
     for i, row in enumerate(maze):
@@ -92,7 +93,7 @@ def find_start(maze, start):
    
     return None
    
-5. **Find Path Function**
+6. **Find Path Function**
 
 def find_path(maze, stdscr):
 
